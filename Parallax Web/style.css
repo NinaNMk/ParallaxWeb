@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* IMAGE PARALLAX 1*/
+
+
+.parallax-image{
+
+    background-image: url("./imgs/bud.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:900px;   
+  }
+
+
+
+#web{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family:"Courier New";
+    align-items: center;
+    align-content: center; 
+    
+    
+}
+
+#parallax{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:25px;
+    padding-bottom:25px;
+    font-size:x-large;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing:7px;  
+    margin: 20px;
+   
+}
+
+#sections{
+display: flex;
+flex-flow:column wrap;
+align-content: space-between;
+
+
+
+}
+
+#uno , #dos ,#tres, #iv{
+    
+    text-decoration: none;
+    border: 1px solid rgb(29, 28, 28);
+    background-attachment: fixed;
+    background-color:rgb(59, 53, 53 ,0.5);
+    margin-left: 20px;
+
+ 
+}
+
+#sections > a{
+    color:white;
+    padding: 25px;
+    font-size:18px;
+    
+
+}
+
+#sections > a:hover{
+    color:rgb(85, 78, 212);
+
+}
+
+#dos{
+ text-decoration: none;
+ 
+
+}
+
+#tres{
+ 
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+/*SECTION ONE*/
+
+
+#one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    font-size:20px;
+    background:rgb(19, 17, 12);
+    opacity: 0.8;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+
+#one > h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#one > p{
+    margin-left:90px;
+    margin-right: 90px;
+    margin-bottom: 90px;
+   
+}
+
+
+/*IMAGE PARALLAX 2 */
+#parallax-image2{
+
+    background-image: url("./imgs/one.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+
+#two{
+    display:flex;
+    justify-content: center;
+  
+}
+
+#two > a{
+    margin:300px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   letter-spacing: 10px;
+   color:rgb(54, 9, 9);
+   background-color: rgb(255, 255, 255 ,0.5);
+   font-size: x-large;
+   font-weight: bold;
+  
+   
+}
+
+
+
+
+/* SECTION TWO */
+
+#two-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    font-size:20px;
+    background:rgb(237, 240, 245); 
+
+}
+#two-section > h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+#two-section > p{
+    margin-left:90px;
+    margin-right: 90px;
+    margin-bottom: 90px;
+}
+
+
+/*IMAGE THREE*/
+
+#parallax-image3{
+    background-image: url("./imgs/three.jpg");
+    height: 600px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+    
+
+}
+
+#three{
+    display:flex;
+    justify-content: center;
+
+}
+
+#three > a{
+    margin:300px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   letter-spacing: 10px;
+   color:rgb(10, 9, 54);
+   background-color: rgb(255, 255, 255 ,0.5);
+   font-size: x-large;
+   
+   
+}
+
+/*SECTION 3*/
+
+#three-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    font-size:20px;
+    background:rgb(255, 255, 255);
+
+}
+#three-section > h3{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+#three-section > p{
+    margin-left:90px;
+    margin-right: 90px;
+    margin-bottom: 90px;
+}
+
+
+#end{
+    margin:300px;
+   
+}
+

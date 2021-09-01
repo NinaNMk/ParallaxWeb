@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"name": "php1",
+			"path": "..\\..\\..\\..\\xampp\\htdocs\\php1"
+		},
+		{
+			"name": "php2",
+			"path": "..\\..\\..\\..\\xampp\\htdocs\\php2"
+		},
+		{
+			"name": "PHP3",
+			"path": "..\\..\\..\\..\\xampp\\htdocs\\PHP3"
+		},
+		{
+			"name": "php3.1",
+			"path": "..\\..\\..\\..\\xampp\\htdocs\\php3.1"
+		},
+		{
+			"name": "php3.2",
+			"path": "..\\..\\..\\..\\xampp\\htdocs\\php3.2"
+		},
+		{
+			"name": "SERAFEIO",
+			"path": ".."
+		},
+		{
+			"name": "Web Dev",
+			"path": "..\\..\\Desktop\\Web Dev"
+		},
+		{
+			"name": "Calc",
+			"path": "..\\..\\Desktop\\Calc"
+		},
+		{
+			"name": "MySite",
+			"path": "..\\..\\Desktop\\MySite"
+		},
+		{
+			"name": "ShoppingList",
+			"path": "..\\..\\Desktop\\ShoppingList"
+		},
+		{
+			"path": "..\\..\\Desktop\\TipCalc"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SERAFEIO"
+	}
+}
